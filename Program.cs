@@ -63,7 +63,7 @@ namespace planner
 
             // propertyManagement.ForEach(property => property.PrintBuilding(property));
 
-            Console.WriteLine(Rainville);
+            Rainville.ListBuildings();
 
 
         }

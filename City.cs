@@ -20,5 +20,10 @@ namespace planner{
             utopia.Add(newBuilding);
         }
 
+        
+        public void ListBuildings(){
+            utopia.ForEach(building => building.PrintBuilding(building));
+        }
+
     }
 }
